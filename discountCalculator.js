@@ -1,8 +1,9 @@
 function calculateDiscountedPrice(quantity, pricePerItem) {
+    debugger; 
     let totalPrice = 0;
     debugger
     for (let i = 1; i < quantity; i++) {
-        totalPrice += pricePerItem;
+        totalPrice = pricePerItem;
     }
 
     if (quantity >= 10) {
@@ -14,4 +15,4 @@ function calculateDiscountedPrice(quantity, pricePerItem) {
 
 
 
-module.exports = calculateDiscountedPrice;
+console.log (calculateDiscountedPrice);
